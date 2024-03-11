@@ -2,9 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+2.jpg
 # C extensions
 *.so
+*.bat
 
 # Distribution / packaging
 .Python

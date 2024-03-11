@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  vue:
+    container_name: front
+    build: ./frontend/
+    restart: "always"
+    ports:
+      - "8080:8080"
+
+  fastapi:
+    container_name: back
+    build: ./backend/
+    restart: "always"
+    ports:
+      - "8001:8001"
