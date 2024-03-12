@@ -112,9 +112,6 @@ const fillRectangles = async () => {
                             <template v-if="digit.is_valid"> Валидная </template>
                             <template v-else> Невалидная </template>
                         </NTag>
-                        <NTag :type="getTagState(digit.confidence)" :bordered="false">
-                            Значение цифры: TODO
-                        </NTag>
                     </div>
                 </div>
             </div>
