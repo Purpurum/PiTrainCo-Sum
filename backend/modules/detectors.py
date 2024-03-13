@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import easyocr
 
-detector = YOLO("modules/models/yolov8n_number_detecting.pt")
+detector = YOLO("modules/models/yolov8_detector.pt")
 reader = easyocr.Reader(['ru'],
                         model_storage_directory='modules/models',
                         user_network_directory='modules/models',
